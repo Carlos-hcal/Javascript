@@ -53,3 +53,10 @@ console.log(nulo)
 let indefinido
 
 console.log(indefinido)
+
+var soma = 1 + 10 + 9
+soma = 25
+soma = 20
+soma = 5 * (2 - 9)
+
+console.log(soma)
