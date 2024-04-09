@@ -1,5 +1,5 @@
 // Exercicio 1
-// Faça um programe qie exiba um decimal, um inteiro e uma string utilizando o console.log.
+// Faça um programa que exiba um decimal, um inteiro e uma string utilizando o console.log.
 
 const decimal = 3.14
 const inteiro = 5
