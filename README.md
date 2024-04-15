@@ -1,7 +1,7 @@
-# Learn Javascript
+# Aprenda Javascript
 
-This book will teach you the basics of programming and Javascript. Whether you are an experienced programmer or not, this book is intended for everyone who wishes to learn the JavaScript programming language.
+Este livro ensinará o básico de programação e Javascript. Quer você seja um programador experiente ou não, este livro é destinado a todos que desejam aprender a linguagem de programação JavaScript.
 
 ![](./assets/intro.png)
 
-JavaScript (_JS for short_) is the programming language that enables web pages to respond to user interaction beyond the basic level. It was created in 1995, and is today one of the most famous and used programming languages.
+JavaScript (abreviado _JS_) é a linguagem de programação que permite que as páginas da web respondam à interação do usuário além do nível básico. Foi criada em 1995 e é hoje uma das linguagens de programação mais famosas e utilizadas.
