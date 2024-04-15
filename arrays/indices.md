@@ -1,34 +1,34 @@
 # Indices
 
-So you have your array of data elements, but what if you want to access a specific element? That is where indices come in. An **index** refers to a spot in the array. indices logically progress one by one, but it should be noted that the first index in an array is 0, as it is in most languages. Brackets [] are used to signify you are referring to an index of an array.
+Então você tem sua matriz de elementos de dados, mas e se quiser acessar um elemento específico? É aí que entram os índices. Um **índice** refere-se a um ponto no array. os índices progridem logicamente um por um, mas deve-se notar que o primeiro índice em uma matriz é 0, como acontece na maioria das linguagens. Colchetes [] são usados para indicar que você está se referindo a um índice de um array.
 
 ```javascript
-// This is an array of strings
-var fruits = ["apple", "banana", "pineapple", "strawberry"];
+// Este é um array de strings
+var frutas = ["maçã", "banana", "abacaxi", "morango"];
 
-// We set the variable banana to the value of the second element of
-// the fruits array. Remember that indices start at 0, so 1 is the
-// second element. Result: banana = "banana"
-var banana = fruits[1];
+// Definimos a variável banana com o valor do segundo elemento de
+// a matriz de frutas. Lembre-se de que os índices começam em 0, então 1 é o
+// segundo elemento. Resultado: banana = "banana"
+var banana = frutas[1];
 ```
 
-{% exercise %}
-Define the variables using the indices of the array
-{% initial %}
-var cars = ["Mazda", "Honda", "Chevy", "Ford"]
+{% exercício %}
+Defina as variáveis usando os índices do array
+{% inicial %}
+var carros = ["Mazda", "Honda", "Chevy", "Ford"]
 var honda =
 var ford =
 var chevy =
-var mazda =
-{% solution %}
-var cars = ["Mazda", "Honda", "Chevy", "Ford"]
-var honda = cars[1];
-var ford = cars[3];
-var chevy = cars[2];
-var mazda = cars[0];
-{% validation %}
+varmazda =
+{% solução %}
+var carros = ["Mazda", "Honda", "Chevy", "Ford"]
+var honda = carros[1];
+var ford = carros[3];
+var chevy = carros[2];
+var mazda = carros[0];
+{% validação %}
 assert(honda === "Honda");
 assert(ford === "Ford");
 assert(chevy === "Chevy");
-assert(mazda === "Mazda");
-{% endexercise %}
+assert(Mazda === "Mazda");
+{% endexercício %}

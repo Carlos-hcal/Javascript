@@ -1,12 +1,12 @@
 # Arrays
 
-Arrays are a fundamental part of programming. An array is a list of data. We can store a lot of data in one variable, which makes our code more readable and easier to understand. It also makes it much easier to perform functions on related data.
+Arrays são uma parte fundamental da programação. Uma matriz é uma lista de dados. Podemos armazenar muitos dados em uma variável, o que torna nosso código mais legível e fácil de entender. Também torna muito mais fácil executar funções em dados relacionados.
 
-The data in arrays are called **elements**.
+Os dados nas matrizes são chamados de **elementos**.
 
-Here is a simple array:
+Aqui está uma matriz simples:
 
 ```javascript
-// 1, 1, 2, 3, 5, and 8 are the elements in this array
-var numbers = [1, 1, 2, 3, 5, 8];
+// 1, 1, 2, 3, 5 e 8 são os elementos deste array
+var números = [1, 1, 2, 3, 5, 8];
 ```
