@@ -66,5 +66,15 @@ function impar(n) {
 function letrasProduto(produto) {
     const tamanhoProduto = produto.length
 
-    if()
+    if(par(tamanhoProduto)){
+
+        return "O numero de letrar deste produto é par";
+    }
+    else if(impar(tamanhoProduto)){
+        return "O numero de letras deste produto é impar";
+    }
 }
+
+console.log(letrasProduto("cafeterias"));
+
+// "cafeteria" > tamanho 10
