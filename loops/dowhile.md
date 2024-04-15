@@ -1,33 +1,33 @@
-# Do...While Loop
+# Do...while Loop
 
-The do...while statement creates a loop that executes a specified statement until the test condition evaluates to be false. The condition is evaluated after executing the statement.
-Syntax for do... while is
-
-```javascript
-do {
-  // statement
-} while (expression);
-```
-
-Lets for example see how to print numbers less than 10 using `do...while` loop:
+A instrução do...while cria um loop que executa uma instrução especificada até que a condição de teste seja avaliada como falsa. A condição é avaliada após a execução da instrução.
+Sintaxe para do... while is
 
 ```javascript
-var i = 0;
-do {
-  document.write(i + " ");
-  i++; // incrementing i by 1
-} while (i < 10);
+fazer {
+   // declaração
+} enquanto (expressão);
 ```
 
-> **_Note_**: `i = i + 1` can be written `i++`.
+Vamos, por exemplo, ver como imprimir números menores que 10 usando o loop `do...while`:
 
-{% exercise %}
-Using a do...while-loop, print numbers between less than 5.
-{% initial %}
-var i = 0;
-{% solution %}
-var i = 0;
-do {
-i++; // incrementing i by 1
-} while (i < 5);
-{% endexercise %}
+```javascript
+var eu = 0;
+fazer {
+   documento.write(i + " ");
+   eu++; //incrementando i em 1
+} enquanto (i < 10);
+```
+
+> **_Nota_**: `i = i + 1` pode ser escrito `i++`.
+
+{% exercício %}
+Usando um loop do...while, imprima números menores que 5.
+{% inicial %}
+var eu = 0;
+{% solução %}
+var eu = 0;
+fazer {
+eu++; //incrementando i em 1
+} enquanto (i < 5);
+{% endexercício %}

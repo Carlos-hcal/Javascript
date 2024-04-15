@@ -1,38 +1,38 @@
 # For Loop
 
-The easiest form of a loop is the for statement. This one has a syntax that is similar to an if statement, but with more options:
+A forma mais fácil de loop é a instrução for. Este possui uma sintaxe semelhante a uma instrução if, mas com mais opções:
 
 ```javascript
-for (condition; end condition; change) {
-    // do it, do it now
+for (condição; condição final; alteração) {
+     // faça isso, faça agora
 }
 ```
 
-Lets for example see how to execute the same code ten-times using a `for` loop:
+Vamos, por exemplo, ver como executar o mesmo código dez vezes usando um loop `for`:
 
 ```javascript
-for (var i = 0; i < 10; i = i + 1) {
-  // do this code ten-times
+para (var i = 0; i < 10; i = i + 1) {
+   //faça esse código dez vezes
 }
 ```
 
-> **_Note_**: `i = i + 1` can be written `i++`.
+> **_Nota_**: `i = i + 1` pode ser escrito `i++`.
 
-{% exercise %}
-Using a for-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) from 0 to 99.
-{% initial %}
-var message = "";
-{% solution %}
-var message = "";
-
-for(var i = 0; i < 100; i++){
-message = message + i;
-}
-{% validation %}
-var message2 = ""
+{% exercício %}
+Usando um loop for, crie uma variável chamada `message` que seja igual à concatenação de inteiros (0, 1, 2, ...) de 0 a 99.
+{% inicial %}
+var mensagem = "";
+{% solução %}
+var mensagem = "";
 
 for(var i = 0; i < 100; i++){
-message2 = message2 + i;
+mensagem = mensagem + i;
 }
-assert(message === message2);
-{% endexercise %}
+{% validação %}
+var mensagem2 = ""
+
+for(var i = 0; i < 100; i++){
+mensagem2 = mensagem2 + i;
+}
+assert(mensagem === mensagem2);
+{% endexercício %}

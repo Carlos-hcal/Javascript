@@ -1,21 +1,21 @@
 # Loops
 
-Loops are repetitive conditions where one variable in the loop changes. Loops are handy, if you want to run the same code over and over again, each time with a different value.
+Loops são condições repetitivas em que uma variável do loop muda. Os loops são úteis se você quiser executar o mesmo código repetidamente, cada vez com um valor diferente.
 
-Instead of writing:
+Em vez de escrever:
 
 ```javascript
-doThing(cars[0]);
-doThing(cars[1]);
-doThing(cars[2]);
-doThing(cars[3]);
-doThing(cars[4]);
+fazendoCoisa(carros[0]);
+fazendoCoisa(carros[1]);
+fazendoCoisa(carros[2]);
+fazendoCoisa(carros[3]);
+fazendoCoisa(carros[4]);
 ```
 
-You can write:
+Você pode escrever:
 
 ```javascript
-for (var i = 0; i < cars.length; i++) {
-  doThing(cars[i]);
+for (var i = 0; i < carros.comprimento; i++) {
+   fazendoCoisa(carros[i]);
 }
 ```

@@ -1,45 +1,45 @@
 # While Loop
 
-While Loops repetitively execute a block of code as long as a specified condition is true.
+While Loops executam repetidamente um bloco de código, desde que uma condição especificada seja verdadeira.
 
 ```javascript
-while (condition) {
-  // do it as long as condition is true
+enquanto (condição) {
+   //faça isso desde que a condição seja verdadeira
 }
 ```
 
-For example, the loop in this example will repetitively execute its block of code as long as the variable i is less than 5:
+Por exemplo, o loop neste exemplo executará repetidamente seu bloco de código enquanto a variável i for menor que 5:
 
 ```javascript
-var i = 0,
-  x = "";
-while (i < 5) {
-  x = x + "The number is " + i;
-  i++;
+var eu = 0,
+   x = "";
+enquanto (eu < 5) {
+   x = x + "O número é" + i;
+   eu++;
 }
 ```
 
-**Note**: Be careful to avoid infinite looping if the condition is always true!
+**Nota**: Tenha cuidado para evitar loop infinito se a condição for sempre verdadeira!
 
-{% exercise %}
-Using a while-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) as long as its length (`message.length`) is less than 100.
-{% initial %}
-var message = "";
-{% solution %}
-var message = "";
-var i = 0;
+{% exercício %}
+Usando um loop while, crie uma variável chamada `message` que seja igual à concatenação de inteiros (0, 1, 2, ...) desde que seu comprimento (`message.length`) seja menor que 100.
+{% inicial %}
+var mensagem = "";
+{% solução %}
+var mensagem = "";
+var eu = 0;
 
-while (message.length < 100) {
-message = message + i;
-i = i + 1;
+while (message.length <100) {
+mensagem = mensagem + i;
+eu = eu + 1;
 }
-{% validation %}
-var message2 = "";
+{% validação %}
+var mensagem2 = "";
 var i2 = 0;
 
-while (message2.length < 100) {
-message2 = message2 + i2;
+enquanto (message2.length <100) {
+mensagem2 = mensagem2 + i2;
 i2 = i2 + 1;
 }
-assert(message === message2);
-{% endexercise %}
+assert(mensagem === mensagem2);
+{% endexercício %}
